@@ -1,0 +1,36 @@
+PODS:
+  - libwebp (1.5.0):
+    - libwebp/demux (= 1.5.0)
+    - libwebp/mux (= 1.5.0)
+    - libwebp/sharpyuv (= 1.5.0)
+    - libwebp/webp (= 1.5.0)
+  - libwebp/demux (1.5.0):
+    - libwebp/webp
+  - libwebp/mux (1.5.0):
+    - libwebp/demux
+  - libwebp/sharpyuv (1.5.0)
+  - libwebp/webp (1.5.0):
+    - libwebp/sharpyuv
+  - YYImage/Core (1.0.4)
+  - YYImage/libwebp (1.0.4):
+    - libwebp
+    - YYImage/Core
+
+DEPENDENCIES:
+  - YYImage/libwebp (from `../../../`)
+
+SPEC REPOS:
+  trunk:
+    - libwebp
+
+EXTERNAL SOURCES:
+  YYImage:
+    :path: "../../../"
+
+SPEC CHECKSUMS:
+  libwebp: 02b23773aedb6ff1fd38cec7a77b81414c6842a8
+  YYImage: 0bf6634dd3fc5881a21c6fb495eac4f6d892c84e
+
+PODFILE CHECKSUM: ba4d13d81883180336986ce12dc76f6c7d0ec5cc
+
+COCOAPODS: 1.16.2
